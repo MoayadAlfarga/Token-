@@ -28,6 +28,9 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 
         return new User(userInformation.getEmail(), userInformation.getPassword(), new ArrayList<>());
 //        return new org.springframework.security.core.userdetails.User(UserInformation.getEmail(),user.getPassword(),new ArrayList<>());
+//        return new org.springframework.security.core.userdetails.User(UserInformation.getEmail(),user.getPassword(),new ArrayList<>());
+//        return new org.springframework.security.core.userdetails.User(UserInformation.getEmail(),user.getPassword(),new ArrayList<>());
+//        return new org.springframework.security.core.userdetails.User(UserInformation.getEmail(),user.getPassword(),new ArrayList<>());
 
     }
 }
